@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #41a7ce;
+    border-bottom: 3px solid #ccc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.6em;
+}
+nav {
+    margin-top: 12px;
+}
+nav button {
+    background-color: white;
+    color: #41a7ce;
+    border: none;
+    padding: 10px 18px;
+    margin: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+nav button:hover {
+    background-color: #ffdddd;
+}
+main {
+    padding: 24px;
+    max-width: 1100px;
+    margin: 24px auto;
+}
+main .card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+h2 {
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 1.5;
+    margin-top: 0;
+    font-weight: normal;
+}
+.intro {
+    margin-bottom: 14px;
+}
+.small {
+    font-size: 0.95em;
+    color: #444;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.06);
+}
+td1 {
+    text-align: left;
+    font-weight: bold;
+    color: gray;
+    text-decoration: underline 2px;
+}
+td2 {
+    text-align: left;
+    font-weight: bold;
+    color: red;
+    text-decoration: underline 2px;
+}
+td3 {
+    text-align: left;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline 2px;
+}
+td4 {
+    text-align: left;
+    font-weight: bold;
+    color: green;
+    text-decoration: underline 2px;
+}
+td5 {
+    text-align: left;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline 2px;
+}
+td6 {
+    text-align: left;
+    font-weight: bold;
+    color: cyan;
+    text-decoration: underline 2px;
+}
+td7 {
+    text-align: left;
+    font-weight: bold;
+    color: #c35131;
+    text-decoration: underline 2px;
+}
+td8 {
+    text-align: left;
+    font-weight: bold;
+    color: purple;
+    text-decoration: underline 2px;
+}
+td9 {
+    text-align: left;
+    font-weight: bold;
+    color: rgba(139, 69, 19, 0.53);
+    text-decoration: underline 2px;
+}
+td10 {
+    text-align: left;
+    font-weight: bold;
+    color: skyblue;
+    text-decoration: underline 2px;
+}
+td11 {
+    text-align: left;
+    font-weight: bold;
+    color: mediumpurple;
+    text-decoration: underline 2px;
+}
+td12 {
+    text-align: left;
+    font-weight: bold;
+    color: lime;
+    text-decoration: underline 2px;
+}
+td13 {
+    text-align: left;
+    font-weight: bold;
+    color: #917373;
+    text-decoration: underline 2px;
+}
+td14 {
+    text-align: left;
+    font-weight: bold;
+    color: rebeccapurple;
+    text-decoration: underline 2px;
+}
+td15 {
+    text-align: left;
+    font-weight: bold;
+    color: mediumblue;
+    text-decoration: underline 2px;
+}
+td16 {
+    text-align: left;
+    font-weight: bold;
+    color: #040404;
+    text-decoration: underline 2px;
+}
+td17 {
+    text-align: left;
+    font-weight: bold;
+    color: darkgray;
+    text-decoration: underline 2px;
+}
+td18 {
+    text-align: left;
+    font-weight: bold;
+    color: hotpink;
+    text-decoration: underline 2px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    background: #41a7ce;
+    color: #222;
+    font-weight: 700;
+}
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+.note {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 12px;
+}
+footer {
+    text-align: center;
+    padding: 26px;
+    background-color: #41a7ce;
+    border-top: 3px solid #ccc;
+    color:white;
+    margin-top: 30px;
+}
+hr {
+    margin: 1px auto;
+    border: none;
+    height: 90px;
+    background: none;
+}
+footer h1 {
+    font-size: 1.2em;
+    color: white;
+    margin: 6px 0;
+}
+footer .small {
+    margin-bottom: 12px;
+}
+footer form {
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin: 26px auto 0 auto;
+    max-width: 470px;
+    text-align: left;
+    border: 2px solid #ccc;
+}
+footer form h3 {
+    color: #41a7ce;
+    margin-bottom: 14px;
+    text-align: center;
+}
+footer label {
+    color: #333;
+    font-weight: bold;
+}
+footer input,
+footer textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+    font-family: inherit;
+}
+footer button {
+    background-color: #41a7ce;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1em;
+}
+footer button:hover { background-color: #41a7ce; }
+@media (max-width: 760px) {
+    th, td { padding: 10px; font-size: 0.95em; }
+    nav button { padding: 8px 12px; margin: 4px; }
+    main { padding: 12px; }
+    footer form { max-width: 95vw; padding: 12px;}
+}
